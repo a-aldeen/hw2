@@ -4,4 +4,5 @@ The website contains three pages:
 1. HomePage
 2. Products Page 
 3. About Us Page
-URL of Website: https://unruffled-jepsen-a6b8b4.netlify.app/
+
+The URL of the store Website is: https://unruffled-jepsen-a6b8b4.netlify.app/
