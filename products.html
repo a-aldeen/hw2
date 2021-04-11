@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Selection!</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class=" md:font-extrabold font-bold text-green-600 md:text-4xl text-2xl text-center m-16"> Our Wonderful Products Selection</div>
+
+        <div class=" px-8 md:flex md:items-center bg-blue-100">
+            <div class="md:font-bold text-blue-400 md:text-2xl"> Starbucks Capsules</div>
+            <div class="md:w-1/3  md:p-8 p-4"> <img src="starbucks_2.jpg"> </div>
+            <div>
+                <p> We offer known starbucks capsules for only 50% premium over amazon </p>
+                <p> Pay more and support our local startup business!</p>
+                <p class="text-green-600 md:font-bold"> Price: $49.99</p>  
+            </div>
+        </div>
+        
+        <div class="px-8 md:flex items-center bg-green-50">
+            <div class="md:font-bold text-blue-400 md:text-2xl mt-4 mb-2">Lavazza Capsules</div>
+            <div class="md:w-1/3 md:p-8 p-4"> <img src="lavazza_2.jpg"> </div>
+            <div>
+                <p> We offer another great option but that comes at a lower cost </p>
+                <p> This one comes at only 30% premium over amazon </p>
+                <p class="text-green-600 md:font-bold">  $39.99</p>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="m-4">
+        <h2 class="font-bold mt-8 mb-4"> Order Now</h2>
+        <p class="mb-4">Send us <a href="mailto:alaa.aldeen@kellogg.northwestern.edu" class="underline">  an email </a> with your order or enter your information below! </p>
+        <form netlify class=" mt-8 w-128">
+
+            <label class= "block mt-4 font-bold" for="name"> Your Name: </label>
+            <input class = "p-2 w-96 border border-gray-500 rounded shadow-xl focus:outline-none focus:ring-purple-500" type="text" id="name" name="name">
+
+            <label class=" block mt-4 font-bold" for= "order"> Please enter the item you like to order:</label>
+            <input class="p-2 w-96 border border-gray-500 rounded shadow-xl focus:outline-none focus:ring-purple-400" type="text" id="order" name="customerOrder">
+
+            <label class="block mt-4 font-bold" for= "email"> Please enter your email address:</label>
+            <input class="p-2 w-96 border rounded shadow-xl border-gray-600 focus:ring-purple-500" type="text" id="email" name="customerEmail">
+
+            <button class="w-96 block mt-4 text-white bg-green-500 rounded text-2xl my-2"> Submit Your Order!</button>
+
+        </form> 
+
+    </div>
+    <p> 
+        <!-- Reference to our home page -->
+        See <a href="index.html" class="underline"> Home </a> to return to our home page!
+    </p>
+
+    <p>
+        <!-- Reference to our about us page -->
+        See our <a href="aboutus.html" class="underline"> About Us </a> page for more information about our mission!
+    </p>
+
+</body>
+</html>
